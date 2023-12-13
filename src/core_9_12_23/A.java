@@ -66,8 +66,11 @@ package core_9_12_23;
 //		Scanner sc= new Scanner(System.in);
 //		
 //		Area init = new Area();
-//		System.out.println("Enter Length and Width of a Rectangle : ");
-//		Area rect = new Area(sc.nextDouble(),sc.nextDouble());
+//		System.out.println("Enter Length of a Rectangle : ");
+//		double l = sc.nextDouble();
+//		System.out.println("Enter Width of a Rectangle : ");
+//		double w = sc.nextDouble();
+//		Area rect = new Area(l,w);
 //		System.out.println("Enter Radious of a Circle : ");
 //		Area circ = new Area(sc.nextDouble());
 //		System.out.println("Area of Rectangle : "+rect.AreaofRectangle());
@@ -98,42 +101,42 @@ package core_9_12_23;
 //User has to enter the values.
 //---------------------------------------------------------------------------------------
 
-//import java.util.Scanner;
-//class Car{
-//	public String CarModel;
-//	public String Color;
-//	public int CarNumber;
-//	public int ModelYear;
-//	
-//	Car(String CarModel , String Color ,int CarNumber ,int ModelYear){
-//		this.CarModel = CarModel;
-//		this.Color = Color;
-//		this.CarNumber = CarNumber;
-//		this.ModelYear = ModelYear;
-//	}
-//	
-//	public String toString() {
-//		return "Car Model : "+CarModel+"\nCar Color : "+Color+"\nCar Number : "+CarNumber+"\nCar Model Year : "+ModelYear;
-//	}
-//}
-//
-//class A{
-//	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		
-//		System.out.println("Enter Car Model : ");
-//		String CModel = sc.nextLine();
-//		System.out.println("Enter Car Color : ");
-//		String CColor = sc.nextLine();
-//		System.out.println("Enter Car Number : ");
-//		int CNumber = sc.nextInt();
-//		System.out.println("Enter Car Model Year : ");
-//		int CYear = sc.nextInt();
-//		Car c = new Car( CModel,CColor,CNumber,CYear);
-//		System.out.println(c.toString());
-//	}
-//
-//}
+import java.util.Scanner;
+class Car{
+	public String CarModel;
+	public String Color;
+	public int CarNumber;
+	public int ModelYear;
+	
+	Car(String CarModel , String Color ,int CarNumber ,int ModelYear){
+		this.CarModel = CarModel;
+		this.Color = Color;
+		this.CarNumber = CarNumber;
+		this.ModelYear = ModelYear;
+	}
+	
+	public String toString() {
+		return "Car Model : "+CarModel+"\nCar Color : "+Color+"\nCar Number : "+CarNumber+"\nCar Model Year : "+ModelYear;
+	}
+}
+
+class A{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Car Model : ");
+		String CModel = sc.nextLine();
+		System.out.println("Enter Car Color : ");
+		String CColor = sc.nextLine();
+		System.out.println("Enter Car Number : ");
+		int CNumber = sc.nextInt();
+		System.out.println("Enter Car Model Year : ");
+		int CYear = sc.nextInt();
+		Car c = new Car( CModel,CColor,CNumber,CYear);
+		System.out.println(c.toString());
+	}
+
+}
 
 
 
