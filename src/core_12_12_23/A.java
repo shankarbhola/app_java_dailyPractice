@@ -6,7 +6,7 @@ package core_12_12_23;
 //EmployeeId int public
 //FirstName string public
 //LastName string public
-//HireDate DateTime public
+//HireDate Sting public
 //Create parametariesd constructor
 //
 //Methods:
