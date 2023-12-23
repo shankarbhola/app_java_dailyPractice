@@ -1,4 +1,3 @@
-package core_22_12_23;
 Create an interface IProduct having the following methods
 
 string GetBrand()

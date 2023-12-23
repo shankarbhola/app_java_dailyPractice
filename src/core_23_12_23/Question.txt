@@ -1,0 +1,33 @@
+Create an interface with name Ilocation having methods 
+
+string GetPickupLocation()
+string GetDropLocation()
+
+Create an interface with name ITaxiBooking having methods 
+
+void BookingApp(string name)
+void ConfirmBooking()
+
+Create a class Taxi implement both interfaces
+
+Instance variables:
+string pickupLocation
+string dropLocation generate properties for the variables
+
+implement all the methods from interfaces
+
+write the logics for those methods
+
+Create another class with name Test write main method in that and create object for Taxi class
+
+print all the data of the Booking.
+
+
+
+Excepted output:
+----------------
+Taxi Booking Details:
+Pickup Location: Airport
+Drop Location: City Center
+Taxi Booking App: Ola
+Booking confirmed. Taxi en route.
