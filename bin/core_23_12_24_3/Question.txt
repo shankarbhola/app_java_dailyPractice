@@ -1,0 +1,5 @@
+Temperature Converter:
+Implement a Java program that converts temperatures between Celsius and Fahrenheit 
+using functional interfaces. Define two functional interfaces, 
+one for Celsius to Fahrenheit conversion and another for Fahrenheit to Celsius conversion. 
+Implement these interfaces using lambda expressions and use them to convert temperatures as needed.

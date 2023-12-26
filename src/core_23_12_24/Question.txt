@@ -1,0 +1,4 @@
+Square and Cube Calculator:
+Create a Java program that calculates the square and cube of a given number using functional interfaces. 
+Define two functional interfaces, one for squaring and another for cubing. 
+Implement these interfaces using lambda expressions and use them to calculate the square and cube of a given number.

@@ -1,0 +1,68 @@
+2.Create a abstract class name as Employee should have the following properties:
+
+Instance variables:
+
+companyName (string public)
+employeeName(string public)
+salary(double public)
+
+Create a prametaried constructor with parameters companyName,employeeName and salary
+
+Create an abstract method
+
+Methods:
+Method name:Details
+Return type:String
+access modifier:public
+
+Method name:CalculateBonus
+Return type:double
+access modifier:public
+
+Create another class Manager that inherits abstract class Employee
+
+Create a prametaried constructor with parameters companyName,employeeName and salary for base class
+
+override Details method 
+write code to return the details of Manager
+
+override CalculateBonus method 
+write logic to calculate the bonus incrementing 10% of salary.
+
+Create another class Developer that inherits abstract class Employee
+
+Instance variables:
+
+WorkExperience (int public)
+
+Create a prametaried constructor with parameters companyName,employeeName, salary for base class and WorkExperience for this class
+
+override Details method 
+write code to return the details of Developer
+
+override CalculateBonus method 
+write logic to calculate the bonus 
+if WorkExperience is graterthan 5 then increment 15% of salary otherwise 10% of salary.
+
+Create another class Tester that inherits abstract class Employee
+
+Instance variables:
+
+WorkExperience (int public)
+
+Create a prametaried constructor with parameters companyName,employeeName, salary for base class and WorkExperience for this class
+
+
+override Details method 
+write code to return the details of Tester
+
+override CalculateBonus method 
+write logic to calculate the bonus 
+if WorkExperience is graterthan 5 then increment 25% of salary otherwise 20% of salary.
+
+Create a class to write main method class name as Program
+write main method create object for Manager class, Developer class and Tester class
+pass the values using constructor and call the 
+CalculateBonus method from each class and print the bonus including details.
+
+
